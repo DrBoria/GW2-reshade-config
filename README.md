@@ -18,10 +18,10 @@ This repository contains a configuration for Ray-Traced Global Illumination (RTG
 
 ### 🔹 Alternative free shaders:
 
-    NiceGuy Lighting: (GitHub)[https://github.com/mj-ehsan/NiceGuy-Shaders]
-    DHUberRT: (GitHub)[https://github.com/AlucardDH/dh-reshade-shaders]
-    Damp RT: (GitHub)[https://github.com/Zenteon/ZN_FX]
-    vort motion: (GitHub)[https://github.com/vortigern11/vort_Shaders]
+    NiceGuy Lighting: [GitHub](https://github.com/mj-ehsan/NiceGuy-Shaders)
+    DHUberRT: [GitHub](https://github.com/AlucardDH/dh-reshade-shaders)
+    Damp RT: [GitHub](https://github.com/Zenteon/ZN_FX)
+    vort motion: [GitHub](https://github.com/vortigern11/vort_Shaders)
 
 These shaders operate similarly and can serve as alternatives.
 
