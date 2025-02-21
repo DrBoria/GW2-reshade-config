@@ -1,0 +1,194 @@
+20:33:14:470 [23068] | INFO  | Initializing crosire's ReShade version '6.3.3.1921' (64-bit) loaded from 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\dxgi.dll' into 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\Gw2-64.exe' (0x8CE27520) ...
+20:33:14:499 [23068] | INFO  | Registering hooks for 'user32.dll' ...
+20:33:14:499 [23068] | INFO  | > Libraries loaded.
+20:33:14:499 [23068] | INFO  | > Found 14 match(es). Installing ...
+20:33:14:528 [23068] | INFO  | Registering hooks for 'C:\WINDOWS\system32\dinput.dll' ...
+20:33:14:529 [23068] | INFO  | > Delayed.
+20:33:14:529 [23068] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d2d1.dll' ...
+20:33:14:529 [23068] | INFO  | > Delayed.
+20:33:14:529 [23068] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d9.dll' ...
+20:33:14:529 [23068] | INFO  | > Libraries loaded.
+20:33:14:529 [23068] | INFO  | > Found 11 match(es). Installing ...
+20:33:14:558 [23068] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d10.dll' ...
+20:33:14:558 [23068] | INFO  | > Delayed.
+20:33:14:558 [23068] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d10_1.dll' ...
+20:33:14:559 [23068] | INFO  | > Delayed.
+20:33:14:559 [23068] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d11.dll' ...
+20:33:14:559 [23068] | INFO  | > Delayed.
+20:33:14:559 [23068] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d12.dll' ...
+20:33:14:559 [23068] | INFO  | > Delayed.
+20:33:14:559 [23068] | INFO  | Registering hooks for 'C:\WINDOWS\system32\dxgi.dll' ...
+20:33:14:560 [23068] | INFO  | > Delayed until first call to an exported function.
+20:33:14:560 [23068] | INFO  | Registering hooks for 'vrclient_x64.dll' ...
+20:33:14:560 [23068] | INFO  | > Delayed.
+20:33:14:560 [23068] | INFO  | Initialized.
+20:33:14:690 [15196] | INFO  | Redirecting RegisterClassA(lpWndClass = 0000004FC0EFF9F0 { "AddressLookupWnd", style = 0 }) ...
+20:33:14:820 [19856] | INFO  | Redirecting RegisterClassExA(lpWndClassEx = 0000004FC12FF4E0 { "ArenaNet", style = 0x3 }) ...
+20:33:14:821 [19856] | INFO  | > Adding 'CS_OWNDC' window class style flag to "ArenaNet".
+20:33:18:069 [19856] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 0000004FC12FD530 { "SteamWinsockInitFakeClass_1", style = 0 }) ...
+20:33:22:288 [19856] | INFO  | Redirecting RegisterClassExA(lpWndClassEx = 0000004FC12FF440 { "ImGui Platform", style = 0x3 }) ...
+20:33:22:288 [19856] | INFO  | > Adding 'CS_OWNDC' window class style flag to "ImGui Platform".
+20:33:22:297 [19856] | INFO  | Redirecting RegisterClassW(lpWndClass = 0000004FC12FF360 { "ArenaNet_Gr_Window_Class", style = 0xb }) ...
+20:33:22:297 [19856] | INFO  | > Adding 'CS_OWNDC' window class style flag to "ArenaNet_Gr_Window_Class".
+20:33:23:021 [26176] | INFO  | Installing delayed hooks for 'C:\WINDOWS\system32\d3d11.dll' (Just loaded via LoadLibrary('d3d11.dll')) ...
+20:33:23:022 [26176] | INFO  | > Found 3 match(es). Installing ...
+20:33:23:057 [26176] | INFO  | Redirecting CreateDXGIFactory1(riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 0000023C45C781C0) ...
+20:33:23:063 [26176] | INFO  | Installing export hooks for 'C:\WINDOWS\system32\dxgi.dll' ...
+20:33:23:064 [26176] | INFO  | > Found 5 match(es). Installing ...
+20:33:23:075 [26176] | INFO  | Redirecting D3D11CreateDevice(pAdapter = 0000023C55DB2C50, DriverType = 0, Software = 0000000000000000, Flags = 0x21, pFeatureLevels = 0000004FC33FF448, FeatureLevels = 4, SDKVersion = 7, ppDevice = 0000023C45C78440, pFeatureLevel = 0000023C45C78220, ppImmediateContext = 0000023C45C78448) ...
+20:33:23:075 [26176] | INFO  | > Passing on to D3D11CreateDeviceAndSwapChain:
+20:33:23:075 [26176] | INFO  | Redirecting D3D11CreateDeviceAndSwapChain(pAdapter = 0000023C55DB2C50, DriverType = 0, Software = 0000000000000000, Flags = 0x21, pFeatureLevels = 0000004FC33FF448, FeatureLevels = 4, SDKVersion = 7, pSwapChainDesc = 0000000000000000, ppSwapChain = 0000000000000000, ppDevice = 0000023C45C78440, pFeatureLevel = 0000023C45C78220, ppImmediateContext = 0000023C45C78448) ...
+20:33:23:120 [19180] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:127 [ 7676] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:129 [25572] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:130 [18112] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:131 [14924] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:132 [20376] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:133 [18952] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:422 [26176] | INFO  | Using feature level c100.
+20:33:23:422 [26176] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\.\reshade-shaders\Addons\' ...
+20:33:23:422 [26176] | INFO  | Loading add-on from 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\.\reshade-shaders\Addons\lut_manager.addon64' ...
+20:33:23:455 [26176] | INFO  | Registered add-on "MartysMods LUT-Manager" v0.0.0.0 using ReShade API version 14.
+20:33:23:456 [26176] | INFO  | Loading add-on from 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\.\reshade-shaders\Addons\ReGradeAddon.addon64' ...
+20:33:23:485 [26176] | INFO  | Registered add-on "ReGrade+" v0.0.0.0 using ReShade API version 14.
+20:33:23:493 [26176] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 0000023C40523690, pDevice = 0000023C3F7A5008, pDesc = 0000004FC33FF320, ppSwapChain = 0000023C45C78228) ...
+20:33:23:493 [26176] | INFO  | > Dumping swap chain description:
+20:33:23:493 [26176] | INFO  |   +-----------------------------------------+-----------------------------------------+
+20:33:23:493 [26176] | INFO  |   | Parameter                               | Value                                   |
+20:33:23:494 [26176] | INFO  |   +-----------------------------------------+-----------------------------------------+
+20:33:23:494 [26176] | INFO  |   | Width                                   | 1280                                    |
+20:33:23:494 [26176] | INFO  |   | Height                                  | 720                                     |
+20:33:23:494 [26176] | INFO  |   | RefreshRate                             | 1                   60                  |
+20:33:23:494 [26176] | INFO  |   | Format                                  | DXGI_FORMAT_R8G8B8A8_UNORM              |
+20:33:23:494 [26176] | INFO  |   | ScanlineOrdering                        | 0                                       |
+20:33:23:494 [26176] | INFO  |   | Scaling                                 | 0                                       |
+20:33:23:494 [26176] | INFO  |   | SampleCount                             | 1                                       |
+20:33:23:494 [26176] | INFO  |   | SampleQuality                           | 0                                       |
+20:33:23:495 [26176] | INFO  |   | BufferUsage                             | 0x20                                    |
+20:33:23:495 [26176] | INFO  |   | BufferCount                             | 2                                       |
+20:33:23:495 [26176] | INFO  |   | OutputWindow                            | 00000000003A0CCC                        |
+20:33:23:495 [26176] | INFO  |   | Windowed                                | TRUE                                    |
+20:33:23:495 [26176] | INFO  |   | SwapEffect                              | 4                                       |
+20:33:23:495 [26176] | INFO  |   | Flags                                   | 0x802                                   |
+20:33:23:495 [26176] | INFO  |   +-----------------------------------------+-----------------------------------------+
+20:33:23:503 [26176] | INFO  | Running on AMD Radeon RX 7900 XTX Driver 350.10.
+20:33:23:673 [26176] | INFO  | [MartysMods LUT-Manager] Initializing...
+20:33:23:673 [26176] | INFO  | [MartysMods LUT-Manager] LUT resource creation failed!
+20:33:23:673 [26176] | INFO  | [MartysMods LUT-Manager] Initialized.
+20:33:23:673 [26176] | INFO  | [ReGrade+] reading effect variables...
+20:33:23:674 [26176] | INFO  | [ReGrade+] initialization completed
+20:33:23:674 [26176] | INFO  | Recreated runtime environment on runtime 0000023C536092E0 ('C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\ReShade.ini').
+20:33:23:674 [26176] | INFO  | Redirecting IDXGISwapChain3::SetColorSpace1(ColorSpace = DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709) ...
+20:33:23:683 [19856] | INFO  | Redirecting CreateDXGIFactory1(riid = {1BC6EA02-EF36-464F-BF0C-21CA39E5168A}, ppFactory = 00007FF657282A50) ...
+20:33:23:818 [26176] | INFO  | Redirecting IDXGISwapChain::ResizeBuffers(this = 0000023C53D5E310, BufferCount = 2, Width = 3840, Height = 2160, NewFormat = 28, SwapChainFlags = 0x802) ...
+20:33:23:819 [26176] | INFO  | Destroyed runtime environment on runtime 0000023C536092E0 ('C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\ReShade.ini').
+20:33:23:822 [26176] | INFO  | [MartysMods LUT-Manager] Initializing...
+20:33:23:822 [26176] | INFO  | [MartysMods LUT-Manager] LUT resource creation failed!
+20:33:23:822 [26176] | INFO  | [MartysMods LUT-Manager] Initialized.
+20:33:23:822 [26176] | INFO  | [ReGrade+] reading effect variables...
+20:33:23:822 [26176] | INFO  | [ReGrade+] initialization completed
+20:33:23:822 [26176] | INFO  | Recreated runtime environment on runtime 0000023C536092E0 ('C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\ReShade.ini').
+20:33:23:822 [26176] | INFO  | Redirecting IDXGISwapChain3::SetColorSpace1(ColorSpace = DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709) ...
+20:33:23:826 [26176] | INFO  | [MartysMods LUT-Manager] No LUT metadata found, inferring from files instead...
+20:33:23:826 [26176] | WARN  | [MartysMods LUT-Manager] No LUTs found in path: C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\LUTs.
+20:33:23:826 [26176] | INFO  | [MartysMods LUT-Manager] Reading preset...
+20:33:23:826 [26176] | INFO  | [MartysMods LUT-Manager] Preset specifies unknown LUT, defaulting to neutral.
+20:33:23:826 [26176] | INFO  | [MartysMods LUT-Manager] No favorites found.
+20:33:23:826 [26176] | INFO  | [ReGrade+] reading effect variables...
+20:33:23:830 [21608] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:831 [11876] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:832 [12396] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:833 [24400] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:834 [ 3484] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:836 [24248] | WARN  | Ignoring LoadLibrary('api-ms-win-appmodel-runtime-l1-1-2') call to avoid possible deadlock.
+20:33:23:887 [ 4404] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Tonemap.fx' in 0.057000 s.
+20:33:23:893 [24028] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Layer.fx' in 0.060000 s.
+20:33:23:893 [21608] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\ColorMatrix.fx' in 0.064000 s.
+20:33:23:894 [20752] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\ASCII.fx' in 0.064000 s.
+20:33:23:902 [24400] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Deband.fx' in 0.069000 s.
+20:33:23:922 [11876] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\FXAA.fx' in 0.091000 s.
+20:33:23:935 [14600] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\GaussianBlurCS.fx' in 0.105000 s.
+20:33:23:941 [24028] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Levels.fx' in 0.047000 s.
+20:33:23:945 [20752] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Border.fx' in 0.049000 s.
+20:33:23:945 [21608] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\CRT.fx' in 0.050000 s.
+20:33:23:951 [ 4404] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\UIMask.fx' in 0.063000 s.
+20:33:23:956 [ 8492] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_REGRADE.fx' in 0.119000 s.
+20:33:23:957 [24400] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\DisplayDepth.fx' in 0.054000 s.
+20:33:23:978 [24028] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\LiftGammaGain.fx' in 0.036000 s.
+20:33:23:979 [14600] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\Halftone.fx' in 0.043000 s.
+20:33:23:991 [ 4404] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Vibrance.fx' in 0.039000 s.
+20:33:23:992 [21608] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Curves.fx' in 0.045000 s.
+20:33:23:992 [20752] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Cartoon.fx' in 0.046000 s.
+20:33:24:001 [17728] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\ReVeil.fx' in 0.170000 s.
+20:33:24:011 [24400] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\DPX.fx' in 0.054000 s.
+20:33:24:020 [24028] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\LumaSharpen.fx' in 0.041000 s.
+20:33:24:032 [ 4404] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Vignette.fx' in 0.040000 s.
+20:33:24:041 [12396] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\SMAA.fx' in 0.210000 s.
+20:33:24:044 [21608] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Daltonize.fx' in 0.051000 s.
+20:33:24:044 [20752] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\CAS.fx' in 0.051000 s.
+20:33:24:056 [24028] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\LUT.fx' in 0.036000 s.
+20:33:24:057 [24400] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\FakeHDR.fx' in 0.045000 s.
+20:33:24:084 [17728] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\SharpContrast.fx' in 0.082000 s.
+20:33:24:084 [12396] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Splitscreen.fx' in 0.042000 s.
+20:33:24:085 [20752] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\ChromaticAberration.fx' in 0.040000 s.
+20:33:24:091 [ 8092] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Quark_Fast_GI.fx' in 0.259000 s.
+20:33:24:101 [24400] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\FilmGrain.fx' in 0.044000 s.
+20:33:24:103 [ 2168] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_CLARITY.fx' in 0.269000 s.
+20:33:24:106 [ 1656] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\CMAA_2.fx' in 0.268000 s.
+20:33:24:109 [11876] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\Bessel_Bloom.fx' in 0.187000 s.
+20:33:24:113 [14600] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\LocalContrastCS.fx' in 0.134000 s.
+20:33:24:119 [12396] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Technicolor.fx' in 0.034000 s.
+20:33:24:149 [ 8092] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Quark_Film_Grain.fx' in 0.057000 s.
+20:33:24:157 [12396] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Technicolor2.fx' in 0.037000 s.
+20:33:24:163 [17728] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\UIMaskCreator.fx' in 0.078000 s.
+20:33:24:169 [14600] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\Mouse.fx' in 0.055000 s.
+20:33:24:218 [11876] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\BilateralComic.fx' in 0.108000 s.
+20:33:24:226 [14600] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\Oilify.fx' in 0.056000 s.
+20:33:24:243 [17728] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\VRS_Map.fx' in 0.079000 s.
+20:33:24:261 [24248] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_SOLARIS.fx' in 0.425000 s.
+20:33:24:299 [24248] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Monochrome.fx' in 0.037000 s.
+20:33:24:304 [ 1656] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\ContrastStretch.fx' in 0.198000 s.
+20:33:24:317 [ 8492] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_RELIGHT.fx' in 0.360000 s.
+20:33:24:331 [11876] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\BilateralCS.fx' in 0.112000 s.
+20:33:24:332 [ 2168] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_EXPOSUREFUSION.fx' in 0.228000 s.
+20:33:24:342 [24248] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Nostalgia.fx' in 0.042000 s.
+20:33:24:431 [ 1656] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\DeepFry.fx' in 0.125000 s.
+20:33:24:516 [ 8092] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Quark_Local_Contrast.fx' in 0.366000 s.
+20:33:24:527 [ 1656] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Insane-Shaders\Dehaze.fx' in 0.095000 s.
+20:33:24:611 [24248] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Quark_Continuity.fx' in 0.268000 s.
+20:33:24:630 [ 2168] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_FFTBLOOM.fx' in 0.297000 s.
+20:33:24:670 [ 3484] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_LAUNCHPAD.fx' in 0.836000 s.
+20:33:24:687 [ 8492] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_RTGI.fx' in 0.369000 s.
+20:33:24:719 [ 3484] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_LUTMANAGER.fx' in 0.047000 s.
+20:33:24:719 [ 8492] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_SHARPEN.fx' in 0.029000 s.
+20:33:24:805 [ 3484] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_MXAO.fx' in 0.086000 s.
+20:33:24:845 [ 8092] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Quark_Xenon_Bloom.fx' in 0.327000 s.
+20:33:24:845 [ 8492] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_SMAA.fx' in 0.125000 s.
+20:33:24:870 [ 8092] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\Sepia.fx' in 0.025000 s.
+20:33:24:914 [ 2168] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_INSIGHT.fx' in 0.282000 s.
+20:33:25:018 [ 3484] | INFO  | Successfully compiled 'C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\reshade-shaders\Shaders\MartysMods_REGRADE+.fx' in 0.212000 s.
+20:33:26:696 [26176] | INFO  | [MartysMods LUT-Manager] Reading preset...
+20:33:26:697 [26176] | INFO  | [MartysMods LUT-Manager] Preset specifies unknown LUT, defaulting to neutral.
+20:33:26:697 [26176] | INFO  | [ReGrade+] reading effect variables...
+20:33:27:344 [26176] | INFO  | [MartysMods LUT-Manager] No LUT metadata found, inferring from files instead...
+20:33:27:344 [26176] | WARN  | [MartysMods LUT-Manager] No LUTs found in path: C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\LUTs.
+20:33:27:344 [26176] | INFO  | [MartysMods LUT-Manager] Reading preset...
+20:33:27:345 [26176] | INFO  | [MartysMods LUT-Manager] Preset specifies unknown LUT, defaulting to neutral.
+20:33:27:345 [26176] | INFO  | [MartysMods LUT-Manager] No favorites found.
+20:33:27:345 [26176] | INFO  | [ReGrade+] reading effect variables...
+20:33:27:345 [26176] | INFO  | [ReGrade+] updating LUTs...
+21:20:43:357 [26176] | INFO  | [MartysMods LUT-Manager] No LUT metadata found, inferring from files instead...
+21:20:43:361 [26176] | WARN  | [MartysMods LUT-Manager] No LUTs found in path: C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\LUTs.
+21:20:43:361 [26176] | INFO  | [MartysMods LUT-Manager] Reading preset...
+21:20:43:361 [26176] | INFO  | [MartysMods LUT-Manager] Preset specifies unknown LUT, defaulting to neutral.
+21:20:43:361 [26176] | INFO  | [MartysMods LUT-Manager] No favorites found.
+21:20:43:361 [26176] | INFO  | [ReGrade+] reading effect variables...
+21:20:43:362 [26176] | INFO  | [ReGrade+] updating LUTs...
+22:44:50:213 [26176] | INFO  | Destroyed runtime environment on runtime 0000023C536092E0 ('C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\ReShade.ini').
+22:44:50:416 [26176] | INFO  | Unloading add-on "MartysMods LUT-Manager" ...
+22:44:50:416 [26176] | INFO  | Unregistered add-on "MartysMods LUT-Manager".
+22:44:50:416 [26176] | INFO  | Unloading add-on "ReGrade+" ...
+22:44:50:416 [26176] | INFO  | Unregistered add-on "ReGrade+".
+22:44:52:539 [23068] | INFO  | Exiting ...
+22:44:52:539 [23068] | INFO  | Uninstalling 43 hook(s) ...
+22:44:53:594 [23068] | INFO  | Finished exiting.
